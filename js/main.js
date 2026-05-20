@@ -47,7 +47,7 @@ if (hamburger && mobileMenu) {
 /* ─── Active nav link ──────────────────────────────── */
 (function () {
   const page = location.pathname.split('/').pop() || 'index.html';
-  document.querySelectorAll('.nav__links a, .nav__mobile a').forEach(a => {
+  document.querySelectorAll('.nav__links a, .nav__mobile a, .bottom-nav__item').forEach(a => {
     if (a.getAttribute('href') === page) a.classList.add('active');
   });
 })();
