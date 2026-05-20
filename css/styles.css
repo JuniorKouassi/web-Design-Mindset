@@ -1148,7 +1148,6 @@ h1, h2, h3, h4, h5 {
 .nav__logo-img {
   height: 68px;
   width: auto;
-  mix-blend-mode: screen;
   flex-shrink: 0;
 }
 .nav__logo-text {
@@ -1189,7 +1188,6 @@ h1, h2, h3, h4, h5 {
 .footer__logo-img {
   height: 100px;
   width: auto;
-  mix-blend-mode: screen;
   margin-bottom: 0.75rem;
   display: block;
 }
