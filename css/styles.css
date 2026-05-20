@@ -994,7 +994,7 @@ h1, h2, h3, h4, h5 {
     order: -1;
     height: 50svh;
     justify-content: flex-start;
-    padding-left: 1rem;
+    padding-left: 4rem; /* shift founder right on mobile */
     /* Push photo down so the head clears the fixed topbar + nav */
     padding-top: calc(var(--topbar-h) + 3.8rem);
   }
