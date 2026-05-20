@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Web Design Mindset — start your project with Junior Kouassi." />
+  <title>Contact — Web Design Mindset</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<canvas id="aurora-bg" aria-hidden="true"></canvas>
+<header>
+  <div class="topbar" role="banner">
+    <div class="topbar__inner">
+      <p class="topbar__available">
+        <span class="topbar__dot" aria-hidden="true"></span>
+        <span data-i18n="topbar.available">Available for new projects</span>
+      </p>
+      <div class="topbar__socials">
+        <a href="https://x.com/JuniorTerry87" class="topbar__social" aria-label="X (Twitter)" target="_blank" rel="noopener"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.748l7.73-8.835L1.254 2.25H8.08l4.261 5.636 5.903-5.636zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+        <a href="https://www.linkedin.com/in/terryjunior" class="topbar__social" aria-label="LinkedIn" target="_blank" rel="noopener"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+        <a href="https://www.instagram.com/terrylanglais?igsh=d2dma29qZ3N5dDMz" class="topbar__social" aria-label="Instagram" target="_blank" rel="noopener"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+      </div>
+    </div>
+  </div>
+  <nav class="nav scrolled" aria-label="Main navigation">
+    <a href="index.html" class="nav__logo" aria-label="Web Design Mindset — Home">
+      <img src="img/logo.png" alt="" class="nav__logo-img" width="30" height="30" aria-hidden="true" />
+      <span class="nav__logo-text">Web Design Mindset</span>
+    </a>
+    <ul class="nav__links" role="list">
+      <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+      <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+      <li><a href="portfolio.html" data-i18n="nav.portfolio">Portfolio</a></li>
+      <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+    </ul>
+    <div class="nav__right">
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button class="lang-btn" data-lang="en"><span class="fi fi-gb fis" aria-hidden="true"></span> EN</button>
+        <span class="lang-sep" aria-hidden="true">|</span>
+        <button class="lang-btn" data-lang="fr"><span class="fi fi-fr fis" aria-hidden="true"></span> FR</button>
+      </div>
+      <a href="contact.html" class="btn btn-primary nav__cta" data-i18n="nav.cta">Start a project</a>
+    </div>
+    <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </nav>
+  <div class="nav__mobile" aria-hidden="true">
+    <a href="index.html" data-i18n="nav.home">Home</a>
+    <a href="services.html" data-i18n="nav.services">Services</a>
+    <a href="portfolio.html" data-i18n="nav.portfolio">Portfolio</a>
+    <a href="contact.html" data-i18n="nav.contact">Contact</a>
+    <div class="lang-toggle lang-toggle--mobile" role="group" aria-label="Language">
+      <button class="lang-btn" data-lang="en">EN</button>
+      <span class="lang-sep" aria-hidden="true">|</span>
+      <button class="lang-btn" data-lang="fr">FR</button>
+    </div>
+    <a href="contact.html" class="btn btn-primary" data-i18n="nav.cta">Start a project</a>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero" aria-labelledby="contact-h1">
+    <div class="page-hero__glow" aria-hidden="true"></div>
+    <div class="bg-watermark" aria-hidden="true"><img src="img/bg-watermark.jpg" alt="" loading="lazy" /></div>
+    <div class="container">
+      <p class="page-hero__label" data-i18n="contact.label">Get in touch</p>
+      <h1 id="contact-h1" class="page-hero__heading" data-i18n-html="contact.heading">Let's <span class="display-italic">talk</span></h1>
+      <p class="page-hero__sub" data-i18n="contact.sub">Tell us about your project. We'll get back to you within 24 hours.</p>
+    </div>
+  </section>
+
+  <section class="section" aria-label="Contact">
+    <div class="container">
+      <div class="contact-layout">
+
+        <!-- Form -->
+        <div>
+          <form class="contact-form" action="mailto:lareasty_terry@yahoo.fr" method="POST" enctype="text/plain" novalidate>
+
+            <div class="form-group">
+              <label class="form-label" for="name" data-i18n="form.name">Full name *</label>
+              <input class="form-input" type="text" id="name" name="name" data-i18n-ph="form.name.ph" placeholder="Your name" required autocomplete="name" />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="email" data-i18n="form.email">Email address *</label>
+              <input class="form-input" type="email" id="email" name="email" data-i18n-ph="form.email.ph" placeholder="you@company.com" required autocomplete="email" />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="company" data-i18n="form.company">Company / Brand</label>
+              <input class="form-input" type="text" id="company" name="company" data-i18n-ph="form.company.ph" placeholder="Your company name" autocomplete="organization" />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="project-type" data-i18n="form.type">Project type *</label>
+              <select class="form-select" id="project-type" name="project_type" required>
+                <option value="" disabled selected data-i18n="form.type.ph">Select a service…</option>
+                <option value="new-website" data-i18n="form.type.new">New website</option>
+                <option value="redesign" data-i18n="form.type.redo">Website redesign</option>
+                <option value="branding" data-i18n="form.type.brand">Branding & Identity</option>
+                <option value="webflow" data-i18n="form.type.wf">Webflow development</option>
+                <option value="seo" data-i18n="form.type.seo">SEO optimization</option>
+                <option value="other" data-i18n="form.type.other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="budget" data-i18n="form.budget">Budget range</label>
+              <select class="form-select" id="budget" name="budget">
+                <option value="" disabled selected data-i18n="form.budget.ph">Select a range…</option>
+                <option value="under-2k" data-i18n="form.budget.1">Under $2,000</option>
+                <option value="2k-5k" data-i18n="form.budget.2">$2,000 – $5,000</option>
+                <option value="5k-10k" data-i18n="form.budget.3">$5,000 – $10,000</option>
+                <option value="10k-20k" data-i18n="form.budget.4">$10,000 – $20,000</option>
+                <option value="20k-plus" data-i18n="form.budget.5">$20,000+</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="message" data-i18n="form.message">Tell us about your project *</label>
+              <textarea class="form-textarea" id="message" name="message" data-i18n-ph="form.message.ph" placeholder="Describe your goals, timeline, and anything else that's relevant…" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;padding:1rem;" data-i18n="form.submit">Send message →</button>
+          </form>
+
+          <div class="form-success" aria-live="polite">
+            <div class="form-success__icon">✓</div>
+            <h2 class="form-success__title" data-i18n="success.title">Message sent!</h2>
+            <p class="form-success__sub" data-i18n="success.sub">Thanks for reaching out. Junior will get back to you within 24 hours.</p>
+          </div>
+        </div>
+
+        <!-- Details -->
+        <div class="contact-details">
+          <div>
+            <div class="contact-founder-photo" style="background:#000;">
+              <img src="img/founder-duotone.png" alt="Portrait of Junior Kouassi, founder of Web Design Mindset" width="895" height="1600" style="mix-blend-mode:screen;" />
+            </div>
+            <p class="contact-founder-caption" data-i18n="contact.caption">Hi, I'm Junior Kouassi</p>
+          </div>
+
+          <div class="contact-detail-item">
+            <span class="contact-detail-label" data-i18n="contact.d.email">Email</span>
+            <p class="contact-detail-value"><a href="mailto:lareasty_terry@yahoo.fr">lareasty_terry@yahoo.fr</a></p>
+          </div>
+
+          <div class="contact-detail-item">
+            <span class="contact-detail-label" data-i18n="contact.d.location">Location</span>
+            <p class="contact-detail-value" data-i18n="contact.d.loc.val">Available worldwide · Remote-first</p>
+          </div>
+
+          <div class="contact-detail-item">
+            <span class="contact-detail-label" data-i18n="contact.d.response">Response time</span>
+            <p class="contact-detail-value" data-i18n="contact.d.res.val">Within 24 hours</p>
+          </div>
+
+          <div class="contact-detail-item">
+            <span class="contact-detail-label" data-i18n="contact.d.follow">Follow along</span>
+            <div class="footer__socials" style="margin-top:0.75rem;">
+              <a href="https://x.com/JuniorTerry87" class="footer__social" aria-label="X (Twitter)" target="_blank" rel="noopener"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.748l7.73-8.835L1.254 2.25H8.08l4.261 5.636 5.903-5.636zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+              <a href="https://www.linkedin.com/in/terryjunior" class="footer__social" aria-label="LinkedIn" target="_blank" rel="noopener"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+              <a href="https://www.instagram.com/terrylanglais?igsh=d2dma29qZ3N5dDMz" class="footer__social" aria-label="Instagram" target="_blank" rel="noopener"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <img src="img/logo.png" alt="Web Design Mindset logo" class="footer__logo-img" width="42" height="42" />
+        <p class="footer__logo">Web Design Mindset</p>
+        <p class="footer__tagline" data-i18n="footer.tagline">We design websites that convert.</p>
+      </div>
+      <div>
+        <p class="footer__col-title" data-i18n="footer.pages">Pages</p>
+        <ul class="footer__links" role="list">
+          <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+          <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+          <li><a href="portfolio.html" data-i18n="nav.portfolio">Portfolio</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__col-title" data-i18n="footer.services">Services</p>
+        <ul class="footer__links" role="list">
+          <li><a href="services.html">Web Design</a></li>
+          <li><a href="services.html">Webflow Dev</a></li>
+          <li><a href="services.html">Branding</a></li>
+          <li><a href="services.html">SEO Strategy</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__col-title" data-i18n="footer.connect">Connect</p>
+        <div class="footer__socials">
+          <a href="https://x.com/JuniorTerry87" class="footer__social" aria-label="X (Twitter)" target="_blank" rel="noopener"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.748l7.73-8.835L1.254 2.25H8.08l4.261 5.636 5.903-5.636zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+          <a href="https://www.linkedin.com/in/terryjunior" class="footer__social" aria-label="LinkedIn" target="_blank" rel="noopener"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+          <a href="https://www.instagram.com/terrylanglais?igsh=d2dma29qZ3N5dDMz" class="footer__social" aria-label="Instagram" target="_blank" rel="noopener"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copyright" data-i18n="footer.copy">© 2026 Web Design Mindset. Founded by Junior Kouassi.</p>
+      <p class="footer__copyright" data-i18n="footer.rights">All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+<div class="fab-group">
+  <a href="https://wa.me/436607118373" class="fab-whatsapp" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <span class="fab-tip">Chat on WhatsApp</span>
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+  <a href="https://t.me/terryjunior" class="fab-telegram" target="_blank" rel="noopener" aria-label="Chat on Telegram">
+    <span class="fab-tip">Chat on Telegram</span>
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.17 14.55l-2.945-.924c-.64-.203-.654-.64.136-.954l11.566-4.458c.537-.194 1.006.131.967.007z"/>
+    </svg>
+  </a>
+</div>
+<script src="js/aurora.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
