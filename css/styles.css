@@ -1105,7 +1105,7 @@ h1, h2, h3, h4, h5 {
   gap: 0.2rem;
 }
 .lang-sep {
-  color: rgba(255,255,255,0.2);
+  color: rgba(255,255,255,0.45);
   font-size: 0.6rem;
   line-height: 1;
   user-select: none;
@@ -1113,22 +1113,23 @@ h1, h2, h3, h4, h5 {
 .lang-btn {
   background: none;
   border: none;
-  color: var(--text-muted);
+  color: #FFFFFF;
   cursor: pointer;
   font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   padding: 0.15rem 0.25rem;
   border-radius: 3px;
-  transition: color var(--dur) var(--ease);
+  transition: color var(--dur) var(--ease), opacity var(--dur) var(--ease);
   font-family: var(--font-body);
   display: flex;
   align-items: center;
   gap: 0.3rem;
 }
-.lang-btn.active { color: var(--accent); }
-.lang-btn:hover  { color: var(--text); }
-.lang-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.lang-btn.active { color: #FFFFFF; opacity: 1; }
+.lang-btn:not(.active) { opacity: 0.55; }
+.lang-btn:hover  { color: #FFFFFF; opacity: 1; }
+.lang-btn:focus-visible { outline: 2px solid rgba(255,255,255,0.7); outline-offset: 2px; }
 .lang-btn .fi {
   width: 1.1em;
   height: 0.85em;
