@@ -7,10 +7,10 @@
 
   const CFG = {
     dotCols:      34,
-    dotMinAlpha:  0.10,
-    dotMaxAlpha:  0.45,
-    dotBaseRadius: 1.0,
-    dotPeakRadius: 2.0,
+    dotMinAlpha:  0.06,
+    dotMaxAlpha:  0.22,
+    dotBaseRadius: 0.8,
+    dotPeakRadius: 1.6,
     breathPeriod: 6400,   // ms
     waveAmpX:     14,
     waveAmpY:     22,
@@ -80,8 +80,8 @@
       ctx.beginPath();
       ctx.arc(d.x, d.y, r, 0, Math.PI * 2);
       ctx.fillStyle = d.tone > 0.82
-        ? `rgba(107,142,196,${a})`
-        : `rgba(13,27,58,${a * 0.85})`;
+        ? `rgba(140,170,215,${a})`
+        : `rgba(90,120,170,${a * 0.80})`;
       ctx.fill();
     }
 

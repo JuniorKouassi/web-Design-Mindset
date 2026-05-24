@@ -35,7 +35,7 @@ html { scroll-behavior: smooth; }
 
 body {
   font-family: var(--font-body);
-  background: #c8d8ee; /* fallback — #bg-wrap provides animated gradient */
+  background: #e8f0f8; /* fallback — #bg-wrap provides animated gradient */
   color: var(--text);
   line-height: 1.65;
   overflow-x: hidden;
@@ -1667,12 +1667,12 @@ h1, h2, h3, h4, h5 {
   z-index: -1;
   pointer-events: none;
   overflow: hidden;
-  /* Vyra sky gradient — matches design_handoff_vyra_waves */
+  /* Vyra sky gradient — much lighter / near-white */
   background:
-    radial-gradient(120% 90% at 50% 110%, rgba(244,241,234,0.95) 0%, rgba(244,241,234,0) 60%),
-    radial-gradient(80%  70% at 80%  20%, rgba(200,216,238,0.90) 0%, rgba(200,216,238,0) 70%),
-    radial-gradient(90%  80% at 15%  30%, rgba(168,192,224,0.70) 0%, rgba(168,192,224,0) 65%),
-    linear-gradient(180deg, #b8cce6 0%, #cfddec 45%, #e8e6dd 100%);
+    radial-gradient(120% 90% at 50% 110%, rgba(255,253,250,0.98) 0%, rgba(255,253,250,0) 55%),
+    radial-gradient(80%  70% at 80%  20%, rgba(225,236,248,0.95) 0%, rgba(225,236,248,0) 65%),
+    radial-gradient(90%  80% at 15%  30%, rgba(205,220,240,0.85) 0%, rgba(205,220,240,0) 60%),
+    linear-gradient(180deg, #dde8f5 0%, #eaf1f8 38%, #f4f2ed 100%);
 }
 
 .bg-clouds {
