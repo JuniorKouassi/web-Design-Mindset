@@ -1398,7 +1398,8 @@ h1, h2, h3, h4, h5 {
   .nav__right          { display: none; }  /* hides lang toggle + CTA in desktop nav */
   .nav__hamburger      { display: flex; }
   .nav__logo-img       { height: 44px; }
-  .nav__logo-text      { display: none; }
+  .nav__logo-text      { display: inline; }
+  .hero__eyebrow       { display: none; }
 
   /* Footer logo */
   .footer__logo-img    { height: 72px; }
