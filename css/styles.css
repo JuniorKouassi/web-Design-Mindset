@@ -1396,6 +1396,7 @@ h1, h2, h3, h4, h5 {
   /* Nav */
   .nav__links          { display: none; }
   .nav__right          { display: none; }  /* hides lang toggle + CTA in desktop nav */
+  .nav__cta            { display: none; }  /* explicit — hides Start a project on mobile */
   .nav__hamburger      { display: flex; }
   .nav__logo-img       { height: 44px; }
   .nav__logo-text      { display: inline; }
