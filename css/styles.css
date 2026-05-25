@@ -1930,6 +1930,11 @@ h1, h2, h3, h4, h5 {
   flex-shrink: 0;
 }
 
+/* ── Mobile: hide studio label ── */
+@media (max-width: 768px) {
+  .lptop-label { display: none; }
+}
+
 /* ── Reduced-motion overrides ── */
 @media (prefers-reduced-motion: reduce) {
   .lptop-glow   { animation: none; }
