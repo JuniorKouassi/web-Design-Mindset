@@ -143,6 +143,40 @@ const TRANSLATIONS = {
     'contact.d.res.val':  'Within 24 hours',
     'contact.d.follow':   'Follow along',
     'contact.caption':    'Hi, I\'m Junior Kouassi',
+
+    /* ── Press Release page ── */
+    'pr.label':   'Media distribution',
+    'pr.heading': 'Press <span class="display-italic">Release</span>',
+    'pr.sub':     'Get your brand published across hundreds of premium media outlets. We write the article and handle full distribution — you focus on growing.',
+
+    'pr.w1.title': 'Instant Credibility',
+    'pr.w1.desc':  'Being featured on AP News, Business Insider, or CoinMarketCap signals legitimacy to every audience — investors, media, and customers alike.',
+    'pr.w2.title': 'Massive Reach',
+    'pr.w2.desc':  'One press release, distributed to up to 800+ outlets simultaneously. Your news reaches audiences across finance, crypto, tech, and mainstream media in a single push.',
+    'pr.w3.title': 'SEO Authority',
+    'pr.w3.desc':  'High-authority backlinks from major publications boost your Google ranking permanently — giving you long-term organic traffic from a single investment.',
+
+    'pr.pricing.label':   'Pricing',
+    'pr.pricing.heading': 'Choose your <span class="display-italic">package</span>',
+    'pr.pricing.sub':     'Every package includes professional article writing and full distribution. No hidden fees.',
+
+    'pr.p1.coverage': '800+ media outlets',
+    'pr.p2.coverage': '350+ media outlets',
+    'pr.p3.coverage': 'Crypto essentials',
+    'pr.feat.writing': 'Writing of the article',
+    'pr.feat.800':     '+ 800 other sites',
+    'pr.feat.350':     '+ 350 other sites',
+    'pr.order':        'Order Now',
+    'pr.note':         'All packages include professional article writing. Delivery within 3–5 business days. <a href="contact.html">Questions? Get in touch →</a>',
+
+    'pr.process.label':   'Process',
+    'pr.process.heading': 'Simple as <span class="display-italic">three steps</span>',
+    'pr.s1.title': 'You brief us',
+    'pr.s1.desc':  'Share your project details, key messages, and any quotes you want included. A 15-minute conversation is all it takes.',
+    'pr.s2.title': 'We write & submit',
+    'pr.s2.desc':  'Our team crafts a professional, SEO-optimised press release and submits it simultaneously to every outlet in your package.',
+    'pr.s3.title': 'You go live',
+    'pr.s3.desc':  'Within 3–5 business days your article is live across hundreds of media outlets. We send you the full coverage report.',
   },
 
   fr: {
@@ -284,6 +318,40 @@ const TRANSLATIONS = {
     'contact.d.res.val':  'Sous 24 heures',
     'contact.d.follow':   'Nous suivre',
     'contact.caption':    'Bonjour, je suis Junior Kouassi',
+
+    /* ── Press Release page ── */
+    'pr.label':   'Distribution médias',
+    'pr.heading': 'Communiqué <span class="display-italic">de presse</span>',
+    'pr.sub':     'Faites publier votre marque sur des centaines de médias premium. Nous rédigeons l\'article et gérons toute la distribution — vous vous concentrez sur la croissance.',
+
+    'pr.w1.title': 'Crédibilité immédiate',
+    'pr.w1.desc':  'Être référencé sur AP News, Business Insider ou CoinMarketCap envoie un signal de légitimité à tout type d\'audience — investisseurs, médias et clients confondus.',
+    'pr.w2.title': 'Portée massive',
+    'pr.w2.desc':  'Un seul communiqué, distribué sur jusqu\'à 800+ médias simultanément. Votre actualité touche la finance, la crypto, la tech et les médias grand public en un seul envoi.',
+    'pr.w3.title': 'Autorité SEO',
+    'pr.w3.desc':  'Des backlinks provenant de publications majeures boostent votre positionnement Google durablement — un trafic organique à long terme issu d\'un seul investissement.',
+
+    'pr.pricing.label':   'Tarifs',
+    'pr.pricing.heading': 'Choisissez votre <span class="display-italic">formule</span>',
+    'pr.pricing.sub':     'Chaque formule inclut la rédaction professionnelle de l\'article et la distribution complète. Sans frais cachés.',
+
+    'pr.p1.coverage': '800+ médias',
+    'pr.p2.coverage': '350+ médias',
+    'pr.p3.coverage': 'Essentiels crypto',
+    'pr.feat.writing': 'Rédaction de l\'article',
+    'pr.feat.800':     '+ 800 autres sites',
+    'pr.feat.350':     '+ 350 autres sites',
+    'pr.order':        'Commander',
+    'pr.note':         'Toutes les formules incluent la rédaction professionnelle. Livraison sous 3 à 5 jours ouvrables. <a href="contact.html">Des questions ? Contactez-nous →</a>',
+
+    'pr.process.label':   'Comment ça marche',
+    'pr.process.heading': 'Simple en <span class="display-italic">trois étapes</span>',
+    'pr.s1.title': 'Vous nous briefez',
+    'pr.s1.desc':  'Partagez les détails de votre projet, vos messages clés et les citations souhaitées. Un échange de 15 minutes suffit.',
+    'pr.s2.title': 'On rédige & publie',
+    'pr.s2.desc':  'Notre équipe rédige un communiqué professionnel et optimisé SEO, puis le soumet simultanément à tous les médias de votre formule.',
+    'pr.s3.title': 'Vous passez en ligne',
+    'pr.s3.desc':  'Sous 3 à 5 jours ouvrables, votre article est en ligne sur des centaines de médias. Nous vous envoyons le rapport de couverture complet.',
   },
 };
 
