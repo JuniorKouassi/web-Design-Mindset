@@ -167,7 +167,7 @@ const TRANSLATIONS = {
     'pr.feat.800':     '+ 800 other sites',
     'pr.feat.350':     '+ 350 other sites',
     'pr.order':        'Order Now',
-    'pr.note':         'All packages include professional article writing. Delivery within 3–5 business days. <a href="contact.html">Questions? Get in touch →</a>',
+    'pr.note':         'All packages include professional article writing. Delivery within 1–2 business days. <a href="contact.html">Questions? Get in touch →</a>',
 
     'pr.process.label':   'Process',
     'pr.process.heading': 'Simple as <span class="display-italic">three steps</span>',
@@ -176,7 +176,7 @@ const TRANSLATIONS = {
     'pr.s2.title': 'We write & submit',
     'pr.s2.desc':  'Our team crafts a professional, SEO-optimised press release and submits it simultaneously to every outlet in your package.',
     'pr.s3.title': 'You go live',
-    'pr.s3.desc':  'Within 3–5 business days your article is live across hundreds of media outlets. We send you the full coverage report.',
+    'pr.s3.desc':  'Within 1–2 business days your article is live across hundreds of media outlets. We send you the full coverage report.',
   },
 
   fr: {
@@ -342,7 +342,7 @@ const TRANSLATIONS = {
     'pr.feat.800':     '+ 800 autres sites',
     'pr.feat.350':     '+ 350 autres sites',
     'pr.order':        'Commander',
-    'pr.note':         'Toutes les formules incluent la rédaction professionnelle. Livraison sous 3 à 5 jours ouvrables. <a href="contact.html">Des questions ? Contactez-nous →</a>',
+    'pr.note':         'Toutes les formules incluent la rédaction professionnelle. Livraison sous 1 à 2 jours ouvrables. <a href="contact.html">Des questions ? Contactez-nous →</a>',
 
     'pr.process.label':   'Comment ça marche',
     'pr.process.heading': 'Simple en <span class="display-italic">trois étapes</span>',
@@ -351,7 +351,7 @@ const TRANSLATIONS = {
     'pr.s2.title': 'On rédige & publie',
     'pr.s2.desc':  'Notre équipe rédige un communiqué professionnel et optimisé SEO, puis le soumet simultanément à tous les médias de votre formule.',
     'pr.s3.title': 'Vous passez en ligne',
-    'pr.s3.desc':  'Sous 3 à 5 jours ouvrables, votre article est en ligne sur des centaines de médias. Nous vous envoyons le rapport de couverture complet.',
+    'pr.s3.desc':  'Sous 1 à 2 jours ouvrables, votre article est en ligne sur des centaines de médias. Nous vous envoyons le rapport de couverture complet.',
   },
 };
 
