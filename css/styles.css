@@ -1952,3 +1952,210 @@ h1, h2, h3, h4, h5 {
   .lptop-dot    { animation: none; }
 }
 
+/* ─── 36. Press Release pricing cards ──────────────────────────── */
+
+.pr-section { padding-bottom: 0; }
+
+.pr-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+  margin-bottom: 2.5rem;
+}
+
+.pr-card {
+  position: relative;
+  background: rgba(255,255,255,0.07);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: 1.25rem;
+  padding: 2rem 1.75rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.pr-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 48px rgba(0,0,0,0.18);
+}
+
+/* Featured card */
+.pr-card--featured {
+  background: linear-gradient(145deg, rgba(13,27,58,0.92) 0%, rgba(26,47,94,0.88) 100%);
+  border-color: rgba(107,142,196,0.45);
+  box-shadow: 0 0 0 1px rgba(107,142,196,0.3), 0 24px 56px rgba(13,27,58,0.4);
+}
+
+.pr-card__badge {
+  position: absolute;
+  top: -0.75rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg, #6b8ec4, #a8c0e0);
+  color: #0d1b3a;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.28rem 0.9rem;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.pr-card__header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.pr-card__emoji {
+  font-size: 1.6rem;
+  line-height: 1;
+  margin-bottom: 0.25rem;
+}
+
+.pr-card__name {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #f0f4fa;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+.pr-card__coverage {
+  font-size: 0.78rem;
+  color: rgba(168,192,224,0.7);
+  font-weight: 500;
+  margin: 0;
+}
+
+.pr-card__price {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding: 1.1rem 0;
+}
+
+.pr-card__amount {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #f0f4fa;
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+
+.pr-card--featured .pr-card__amount {
+  color: #a8c0e0;
+}
+
+.pr-card__features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  flex: 1;
+}
+
+.pr-card__features li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.55rem;
+  font-size: 0.875rem;
+  color: rgba(220,232,248,0.85);
+  line-height: 1.4;
+}
+
+.pr-check {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  border-radius: 50%;
+  background: rgba(107,142,196,0.22);
+  position: relative;
+  top: 1px;
+}
+
+.pr-check::after {
+  content: '';
+  display: block;
+  width: 5px;
+  height: 8px;
+  border: 1.5px solid #6b8ec4;
+  border-top: none;
+  border-left: none;
+  transform: rotate(45deg) translateY(-1px);
+}
+
+.pr-card--featured .pr-check {
+  background: rgba(107,142,196,0.35);
+}
+
+.pr-card__extra {
+  margin-top: 0.25rem;
+  font-style: italic;
+  color: rgba(168,192,224,0.65) !important;
+}
+
+.pr-card__cta {
+  display: block;
+  text-align: center;
+  padding: 0.85rem 1.5rem;
+  border-radius: 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  background: rgba(255,255,255,0.1);
+  color: #f0f4fa;
+  border: 1px solid rgba(255,255,255,0.18);
+  transition: background 0.2s, transform 0.15s;
+  text-decoration: none;
+}
+
+.pr-card__cta:hover {
+  background: rgba(255,255,255,0.18);
+  transform: translateY(-1px);
+}
+
+.pr-card__cta--featured {
+  background: #6b8ec4;
+  border-color: #6b8ec4;
+  color: #0d1b3a;
+}
+
+.pr-card__cta--featured:hover {
+  background: #a8c0e0;
+  border-color: #a8c0e0;
+}
+
+.pr-note {
+  text-align: center;
+  font-size: 0.82rem;
+  color: rgba(168,192,224,0.6);
+  margin-top: 0.5rem;
+}
+
+.pr-note a {
+  color: rgba(168,192,224,0.9);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* Mobile bottom nav — 5 items */
+@media (max-width: 768px) {
+  .bottom-nav { gap: 0; }
+  .bottom-nav__label { font-size: 0.6rem; }
+}
+
+/* PR grid tablet → stack */
+@media (max-width: 900px) {
+  .pr-grid { grid-template-columns: 1fr; max-width: 420px; margin-inline: auto; }
+  .pr-card--featured { order: -1; }
+}
