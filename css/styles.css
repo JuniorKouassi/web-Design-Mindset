@@ -2142,9 +2142,11 @@ h1, h2, h3, h4, h5 {
   gap: 1.5rem;
 }
 .pr-why__item {
-  background: linear-gradient(145deg, rgba(13,27,58,0.92) 0%, rgba(26,47,94,0.88) 100%);
-  border: 1px solid rgba(107,142,196,0.45);
-  box-shadow: 0 0 0 1px rgba(107,142,196,0.2), 0 12px 32px rgba(13,27,58,0.35);
+  background: rgba(255,255,255,0.72);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.9);
+  box-shadow: 0 4px 24px rgba(13,27,58,0.1);
   border-radius: 1rem;
   padding: 1.75rem 1.5rem;
   display: flex;
@@ -2154,23 +2156,23 @@ h1, h2, h3, h4, h5 {
 .pr-why__icon {
   width: 42px;
   height: 42px;
-  background: rgba(107,142,196,0.25);
+  background: rgba(107,142,196,0.15);
   border-radius: 0.65rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #a8c0e0;
+  color: #2b3a5e;
 }
 .pr-why__icon svg { width: 20px; height: 20px; }
 .pr-why__title {
   font-size: 1rem;
   font-weight: 700;
-  color: #e8f0fa;
+  color: #0d1b3a;
   margin: 0;
 }
 .pr-why__desc {
   font-size: 0.875rem;
-  color: rgba(200,220,245,0.85);
+  color: #3d5070;
   line-height: 1.6;
   margin: 0;
 }
@@ -2184,9 +2186,11 @@ h1, h2, h3, h4, h5 {
 }
 .pr-step {
   flex: 1;
-  background: linear-gradient(145deg, rgba(13,27,58,0.92) 0%, rgba(26,47,94,0.88) 100%);
-  border: 1px solid rgba(107,142,196,0.45);
-  box-shadow: 0 0 0 1px rgba(107,142,196,0.2), 0 12px 32px rgba(13,27,58,0.35);
+  background: rgba(255,255,255,0.72);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.9);
+  box-shadow: 0 4px 24px rgba(13,27,58,0.1);
   border-radius: 1rem;
   padding: 1.75rem 1.5rem;
   display: flex;
@@ -2198,17 +2202,17 @@ h1, h2, h3, h4, h5 {
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.1em;
-  color: #a8c0e0;
+  color: #6b8ec4;
 }
 .pr-step__title {
   font-size: 1rem;
   font-weight: 700;
-  color: #e8f0fa;
+  color: #0d1b3a;
   margin: 0;
 }
 .pr-step__desc {
   font-size: 0.875rem;
-  color: rgba(200,220,245,0.85);
+  color: #3d5070;
   line-height: 1.6;
   margin: 0;
 }
