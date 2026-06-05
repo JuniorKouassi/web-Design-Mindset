@@ -95,6 +95,14 @@ const TRANSLATIONS = {
     's06.d3': 'Performance optimization', 's06.d4': 'Analytics reporting',
     's06.d5': 'Priority support & response',
 
+    's07.title': 'Press Release',
+    's07.desc':  'Get your brand published on 800+ premium media outlets in 1–2 business days. We write the article, handle full distribution, and send you the coverage report.',
+    's07.d1': 'Professional article writing',
+    's07.d2': 'Distribution to 800+ outlets (Package 1)',
+    's07.d3': 'Globenewswire, AP News, Business Insider, Benzinga',
+    's07.d4': 'CoinMarketCap, Binance Square, X Article',
+    's07.d5': 'Full coverage report delivered',
+
     /* ── Portfolio page ── */
     'portfolio.label':   'Our work',
     'portfolio.heading': 'Selected <span class="display-italic">work</span>',
@@ -269,6 +277,14 @@ const TRANSLATIONS = {
     's06.d1': 'Mises à jour & modifications mensuelles','s06.d2': 'Surveillance sécurité',
     's06.d3': 'Optimisation des performances',        's06.d4': 'Reporting analytics',
     's06.d5': 'Support prioritaire & réactivité',
+
+    's07.title': 'Communiqué de presse',
+    's07.desc':  'Faites publier votre marque sur 800+ médias premium en 1 à 2 jours ouvrables. Nous rédigeons l\'article, gérons la distribution et vous envoyons le rapport de couverture.',
+    's07.d1': 'Rédaction professionnelle de l\'article',
+    's07.d2': 'Distribution sur 800+ médias (Formule 1)',
+    's07.d3': 'Globenewswire, AP News, Business Insider, Benzinga',
+    's07.d4': 'CoinMarketCap, Binance Square, Article X',
+    's07.d5': 'Rapport de couverture complet livré',
 
     /* ── Portfolio page ── */
     'portfolio.label':   'Notre travail',
