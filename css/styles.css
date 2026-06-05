@@ -2227,6 +2227,8 @@ h1, h2, h3, h4, h5 {
 @media (max-width: 768px) {
   .bottom-nav { gap: 0; }
   .bottom-nav__label { font-size: 0.6rem; }
+  .pr-why__intro .section-heading { margin-bottom: 0; }
+  .pr-why__lead { margin-top: 0.4rem; }
 }
 
 /* PR grid + why + process tablet → stack */
