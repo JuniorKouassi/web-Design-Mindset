@@ -1051,7 +1051,7 @@ h1, h2, h3, h4, h5 {
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--text);
+  color: #6b8ec4;
 }
 .nav__right {
   display: flex;
