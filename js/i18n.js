@@ -381,6 +381,7 @@ function applyTranslations(lang) {
   window.__wdmLang = lang;
   document.documentElement.lang = lang;
   localStorage.setItem('wdm-lang', lang);
+  window.dispatchEvent(new CustomEvent('wdm-lang-change', { detail: { lang } }));
 
   /* Text content */
   document.querySelectorAll('[data-i18n]').forEach(el => {
