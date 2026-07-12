@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import TubesBackground from "./TubesBackground";
 import {
   ArrowRight,
   Play,
@@ -82,10 +83,7 @@ export default function HeroSection() {
   const tx = T[lang] || T.en;
 
   return (
-    <div
-      className="relative w-full overflow-hidden font-sans"
-      style={{ background: "#06111f" }}
-    >
+    <TubesBackground>
       <style>{`
         @keyframes fadeSlideIn {
           from { opacity: 0; transform: translateY(20px); }
@@ -322,6 +320,6 @@ export default function HeroSection() {
           </div>
         </div>
       </div>
-    </div>
+    </TubesBackground>
   );
 }
