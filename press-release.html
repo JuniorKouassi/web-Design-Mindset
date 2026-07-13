@@ -25,6 +25,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css" />
+  <link rel="stylesheet" href="css/hero.bundle.css" />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
@@ -132,89 +133,7 @@
   </section>
 
   <!-- ─── Pricing Packages ─────────────────────────── -->
-  <section class="section pr-section" aria-label="Press release packages">
-    <div class="container">
-      <div class="pr-section__header fade-up">
-        <p class="section-label" data-i18n="pr.pricing.label">Pricing</p>
-        <h2 class="section-heading" data-i18n-html="pr.pricing.heading">Choose your <span class="display-italic">package</span></h2>
-        <p class="pr-section__sub" data-i18n="pr.pricing.sub">Every package includes professional article writing and full distribution. No hidden fees.</p>
-      </div>
-
-      <div class="pr-grid">
-
-        <!-- PACKAGE 1 -->
-        <div class="pr-card fade-up">
-          <div class="pr-card__header">
-            <span class="pr-card__emoji" aria-hidden="true">🗞</span>
-            <h2 class="pr-card__name">Package 1</h2>
-            <p class="pr-card__coverage" data-i18n="pr.p1.coverage">800+ media outlets</p>
-          </div>
-          <div class="pr-card__price">
-            <span class="pr-card__amount">$900</span>
-          </div>
-          <ul class="pr-card__features" role="list">
-            <li><span class="pr-check" aria-hidden="true"></span><span data-i18n="pr.feat.writing">Writing of the article</span></li>
-            <li><span class="pr-check" aria-hidden="true"></span>Globenewswire</li>
-            <li><span class="pr-check" aria-hidden="true"></span>Streetinsider</li>
-            <li><span class="pr-check" aria-hidden="true"></span>AP News</li>
-            <li><span class="pr-check" aria-hidden="true"></span>Business Insider</li>
-            <li><span class="pr-check" aria-hidden="true"></span>Benzinga</li>
-            <li><span class="pr-check" aria-hidden="true"></span>CoinMarketCap</li>
-            <li><span class="pr-check" aria-hidden="true"></span>Binance Square</li>
-            <li><span class="pr-check" aria-hidden="true"></span>X Article</li>
-            <li class="pr-card__extra"><span class="pr-check" aria-hidden="true"></span><span data-i18n="pr.feat.800">+ 800 other sites</span></li>
-          </ul>
-          <a href="https://t.me/terryjunior?text=Hi%2C%20I'm%20interested%20in%20Press%20Release%20Package%201%20(%24900)" class="pr-card__cta" target="_blank" rel="noopener"><span data-i18n="pr.order">Order Now</span></a>
-        </div>
-
-        <!-- PACKAGE 2 -->
-        <div class="pr-card fade-up">
-          <div class="pr-card__header">
-            <span class="pr-card__emoji" aria-hidden="true">🗞</span>
-            <h2 class="pr-card__name">Package 2</h2>
-            <p class="pr-card__coverage" data-i18n="pr.p2.coverage">350+ media outlets</p>
-          </div>
-          <div class="pr-card__price">
-            <span class="pr-card__amount">$600</span>
-          </div>
-          <ul class="pr-card__features" role="list">
-            <li><span class="pr-check" aria-hidden="true"></span><span data-i18n="pr.feat.writing">Writing of the article</span></li>
-            <li><span class="pr-check" aria-hidden="true"></span>Streetinsider</li>
-            <li><span class="pr-check" aria-hidden="true"></span>Coinchapter</li>
-            <li><span class="pr-check" aria-hidden="true"></span>Digital Journal</li>
-            <li><span class="pr-check" aria-hidden="true"></span>Coindaily</li>
-            <li><span class="pr-check" aria-hidden="true"></span>Binance Square</li>
-            <li><span class="pr-check" aria-hidden="true"></span>CoinMarketCap</li>
-            <li class="pr-card__extra"><span class="pr-check" aria-hidden="true"></span><span data-i18n="pr.feat.350">+ 350 other sites</span></li>
-          </ul>
-          <a href="https://t.me/terryjunior?text=Hi%2C%20I'm%20interested%20in%20Press%20Release%20Package%202%20(%24600)" class="pr-card__cta" target="_blank" rel="noopener"><span data-i18n="pr.order">Order Now</span></a>
-        </div>
-
-        <!-- PACKAGE 3 -->
-        <div class="pr-card fade-up">
-          <div class="pr-card__header">
-            <span class="pr-card__emoji" aria-hidden="true">🗞</span>
-            <h2 class="pr-card__name">Package 3</h2>
-            <p class="pr-card__coverage" data-i18n="pr.p3.coverage">Crypto essentials</p>
-          </div>
-          <div class="pr-card__price">
-            <span class="pr-card__amount">$300</span>
-          </div>
-          <ul class="pr-card__features" role="list">
-            <li><span class="pr-check" aria-hidden="true"></span><span data-i18n="pr.feat.writing">Writing of the article</span></li>
-            <li><span class="pr-check" aria-hidden="true"></span>CoinMarketCap</li>
-            <li><span class="pr-check" aria-hidden="true"></span>Binance Square</li>
-            <li><span class="pr-check" aria-hidden="true"></span>X Article</li>
-          </ul>
-          <a href="https://t.me/terryjunior?text=Hi%2C%20I'm%20interested%20in%20Press%20Release%20Package%203%20(%24300)" class="pr-card__cta" target="_blank" rel="noopener"><span data-i18n="pr.order">Order Now</span></a>
-        </div>
-
-      </div>
-
-      <p class="pr-note fade-up" data-i18n-html="pr.note">All packages include professional article writing. Delivery within 3–5 business days. <a href="contact.html">Questions? Get in touch →</a></p>
-
-    </div>
-  </section>
+  <div id="pricing-root"></div>
 
   <!-- ─── How it works ─────────────────────────────── -->
   <section class="section pr-process" aria-label="How it works">
@@ -352,5 +271,6 @@
 <script src="js/bg-animation.js"></script>
 <script src="js/i18n.js"></script>
 <script src="js/main.js"></script>
+<script type="module" src="js/hero.bundle.js"></script>
 </body>
 </html>
