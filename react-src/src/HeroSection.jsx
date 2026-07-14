@@ -17,6 +17,7 @@ const CLIENTS = [
   { name: "CryptoPromo", img: "img/cryptopromo.jpg" },
   { name: "Pinksale",    img: "img/Pinksale-Finance.webp" },
   { name: "Crypto Elite", img: "img/Crypto Elite.jpg" },
+  { name: "Pinnacle",     img: "img/pinnacle.jpg" },
   { name: "Acme Corp",   icon: Hexagon  },
   { name: "Quantum",     icon: Triangle },
   { name: "Command+Z",   icon: Command  },
