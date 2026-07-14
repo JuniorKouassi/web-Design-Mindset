@@ -14,12 +14,14 @@ import {
 } from "lucide-react";
 
 const CLIENTS = [
-  { name: "Acme Corp",  icon: Hexagon  },
-  { name: "Quantum",    icon: Triangle },
-  { name: "Command+Z",  icon: Command  },
-  { name: "Phantom",    icon: Ghost    },
-  { name: "Ruby",       icon: Gem      },
-  { name: "Chipset",    icon: Cpu      },
+  { name: "CryptoPromo", img: "img/cryptopromo.jpg" },
+  { name: "Pinksale",    img: "img/Pinksale-Finance.webp" },
+  { name: "Acme Corp",   icon: Hexagon  },
+  { name: "Quantum",     icon: Triangle },
+  { name: "Command+Z",   icon: Command  },
+  { name: "Phantom",     icon: Ghost    },
+  { name: "Ruby",        icon: Gem      },
+  { name: "Chipset",     icon: Cpu      },
 ];
 
 const T = {
@@ -307,7 +309,20 @@ export default function HeroSection() {
                       onMouseEnter={e => e.currentTarget.style.opacity = "1"}
                       onMouseLeave={e => e.currentTarget.style.opacity = "0.5"}
                     >
-                      <client.icon className="h-6 w-6 fill-current" style={{ color: "#6b8ec4" }} />
+                      {client.img ? (
+                        <img
+                          src={client.img}
+                          alt={client.name}
+                          style={{
+                            width: "28px", height: "28px",
+                            borderRadius: "50%",
+                            objectFit: "cover",
+                            flexShrink: 0,
+                          }}
+                        />
+                      ) : (
+                        <client.icon className="h-6 w-6 fill-current" style={{ color: "#6b8ec4" }} />
+                      )}
                       <span className="text-lg font-bold tracking-tight" style={{ color: "#a8c0e0" }}>
                         {client.name}
                       </span>
