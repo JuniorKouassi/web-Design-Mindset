@@ -64,7 +64,7 @@ const TESTIMONIALS = {
     {
       name: "Lina",
       designation: "Icoholder",
-      quote: "Merci beaucoup ! C'est toujours un plaisir de travailler avec vous — livraison ultra rapide et des communiqués de presse de très haute qualité. Merci !",
+      quote: "Merci beaucoup ! C'est toujours un plaisir de travailler avec vous — livraison ultra rapide et des articles de presse de très haute qualité. Merci !",
       src: "img/Lina.jpg",
     },
     {
