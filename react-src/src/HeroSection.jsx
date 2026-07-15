@@ -20,6 +20,7 @@ const CLIENTS = [
   { name: "Pinnacle",     img: "img/pinnacle.jpg" },
   { name: "Procreal",    img: "img/Procreal.jpg" },
   { name: "FC USDI",     img: "img/fc-usdi-logo.jpg" },
+  { name: "Coinsult",   img: "img/Coinsult.jpg" },
   { name: "Acme Corp",   icon: Hexagon  },
   { name: "Quantum",     icon: Triangle },
   { name: "Command+Z",   icon: Command  },

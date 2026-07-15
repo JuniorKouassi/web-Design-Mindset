@@ -36,6 +36,12 @@ const TESTIMONIALS = {
       src: "img/Lina.jpg",
     },
     {
+      name: "Magi",
+      designation: "CEO, Magicalls",
+      quote: "Working with webdesignmindset was a wonderful experience that I would recommend to anyone in the web3 space.",
+      src: "img/Magi.jpg",
+    },
+    {
       name: "Sarah Mitchell",
       designation: "CEO, Elevate Ventures",
       quote: "Web Design Mindset completely transformed our online presence. The attention to detail and the modern aesthetic they brought to our brand exceeded every expectation. Our conversions jumped 40% within the first month.",
@@ -66,6 +72,12 @@ const TESTIMONIALS = {
       designation: "Icoholder",
       quote: "Merci beaucoup ! C'est toujours un plaisir de travailler avec vous — livraison ultra rapide et des articles de presse de très haute qualité. Merci !",
       src: "img/Lina.jpg",
+    },
+    {
+      name: "Magi",
+      designation: "CEO, Magicalls",
+      quote: "Travailler avec webdesignmindset a été une expérience formidable que je recommande à tous ceux qui évoluent dans l'espace web3.",
+      src: "img/Magi.jpg",
     },
     {
       name: "Sarah Mitchell",
@@ -275,11 +287,13 @@ export default function AnimatedTestimonials({ autoplay = true }) {
                     onClick={() => setActive(i)}
                     aria-label={`Go to testimonial ${i + 1}`}
                     style={{
-                      width: i === active ? "24px" : "8px", height: "8px",
+                      width: "24px", height: "8px",
                       borderRadius: "4px",
                       background: i === active ? "#6b8ec4" : "rgba(107,142,196,0.3)",
                       border: "none", cursor: "pointer", padding: 0,
-                      transition: "width 0.3s, background 0.3s",
+                      transform: i === active ? "scaleX(1)" : "scaleX(0.33)",
+                      transformOrigin: "left center",
+                      transition: "transform 0.3s, background 0.3s",
                     }}
                   />
                 ))}
