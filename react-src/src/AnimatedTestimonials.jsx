@@ -37,7 +37,7 @@ const TESTIMONIALS = {
     },
     {
       name: "Magi",
-      designation: "CEO, Magicalls",
+      designation: "CEO, Magireview",
       quote: "Working with webdesignmindset was a wonderful experience that I would recommend to anyone in the web3 space.",
       src: "img/Magi.jpg",
     },
@@ -75,7 +75,7 @@ const TESTIMONIALS = {
     },
     {
       name: "Magi",
-      designation: "CEO, Magicalls",
+      designation: "CEO, Magireview",
       quote: "Travailler avec webdesignmindset a été une expérience formidable que je recommande à tous ceux qui évoluent dans l'espace web3.",
       src: "img/Magi.jpg",
     },
