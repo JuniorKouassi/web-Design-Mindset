@@ -54,6 +54,12 @@ const TESTIMONIALS = {
       src: "img/Marcus Carso.jpg",
     },
     {
+      name: "Jaky",
+      designation: "Latam PR",
+      quote: "I would recommend the services of Web Design Mindset to everyone. I had a wonderful experience with this company in web3.",
+      src: "img/Jaky.jpg",
+    },
+    {
       name: "Sarah Mitchell",
       designation: "CEO, Elevate Ventures",
       quote: "Web Design Mindset completely transformed our online presence. The attention to detail and the modern aesthetic they brought to our brand exceeded every expectation. Our conversions jumped 40% within the first month.",
@@ -90,6 +96,12 @@ const TESTIMONIALS = {
       designation: "Représentant LATAM, Pinksale",
       quote: "Une collaboration formidable avec Web Design Mindset et son CEO depuis de nombreuses années. Livraison rapide des communiqués de presse et service marketing au top.",
       src: "img/Marcus Carso.jpg",
+    },
+    {
+      name: "Jaky",
+      designation: "Latam PR",
+      quote: "Je recommande les services de Web Design Mindset à tout le monde. J'ai vécu une expérience formidable avec cette entreprise dans le web3.",
+      src: "img/Jaky.jpg",
     },
     {
       name: "Sarah Mitchell",
