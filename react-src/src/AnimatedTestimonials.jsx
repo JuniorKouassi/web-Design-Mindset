@@ -42,6 +42,12 @@ const TESTIMONIALS = {
       src: "img/Magi.jpg",
     },
     {
+      name: "Manish Roshan",
+      designation: "Director, Coneberry Productions LLP",
+      quote: "Working with this company has always been a pleasure. Over 4 years of collaboration and the quality never disappoints.",
+      src: "img/Manush Roshan.jpg",
+    },
+    {
       name: "Sarah Mitchell",
       designation: "CEO, Elevate Ventures",
       quote: "Web Design Mindset completely transformed our online presence. The attention to detail and the modern aesthetic they brought to our brand exceeded every expectation. Our conversions jumped 40% within the first month.",
@@ -78,6 +84,12 @@ const TESTIMONIALS = {
       designation: "CEO, Magireview",
       quote: "Travailler avec webdesignmindset a été une expérience formidable que je recommande à tous ceux qui évoluent dans l'espace web3.",
       src: "img/Magi.jpg",
+    },
+    {
+      name: "Manish Roshan",
+      designation: "Directeur, Coneberry Productions LLP",
+      quote: "Travailler avec cette équipe a toujours été un plaisir. Plus de 4 ans de collaboration et la qualité ne déçoit jamais.",
+      src: "img/Manush Roshan.jpg",
     },
     {
       name: "Sarah Mitchell",
