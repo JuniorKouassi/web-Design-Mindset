@@ -54,18 +54,6 @@ const TESTIMONIALS = {
       src: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&h=500&fit=crop&q=80",
     },
     {
-      name: "James Okafor",
-      designation: "Founder, NovaTech Solutions",
-      quote: "The team truly understood our vision and translated it into a stunning website. The animations are fluid, the design is clean, and the site loads blazing fast. Absolutely professional from start to finish.",
-      src: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&h=500&fit=crop&q=80",
-    },
-    {
-      name: "Amara Diallo",
-      designation: "Director, Horizon Media",
-      quote: "Working with Web Design Mindset was a game-changer. They didn't just build a website — they crafted a digital experience that tells our story. The bilingual support was a huge bonus for our international audience.",
-      src: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=500&h=500&fit=crop&q=80",
-    },
-    {
       name: "Luca Bernardi",
       designation: "Product Manager, Corsa Digital",
       quote: "Exceptional quality and fast turnaround. The design perfectly captures our brand identity — sleek, modern, and trustworthy. I highly recommend them to any business that wants to stand out online.",
@@ -96,18 +84,6 @@ const TESTIMONIALS = {
       designation: "PDG, Elevate Ventures",
       quote: "Web Design Mindset a complètement transformé notre présence en ligne. L'attention aux détails et l'esthétique moderne qu'ils ont apportée à notre marque ont dépassé toutes nos attentes. Nos conversions ont bondi de 40 % dès le premier mois.",
       src: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&h=500&fit=crop&q=80",
-    },
-    {
-      name: "James Okafor",
-      designation: "Fondateur, NovaTech Solutions",
-      quote: "L'équipe a parfaitement compris notre vision et l'a traduite en un site web époustouflant. Les animations sont fluides, le design est épuré et le site se charge à toute vitesse. Un professionnalisme exemplaire du début à la fin.",
-      src: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&h=500&fit=crop&q=80",
-    },
-    {
-      name: "Amara Diallo",
-      designation: "Directrice, Horizon Media",
-      quote: "Travailler avec Web Design Mindset a tout changé. Ils n'ont pas simplement créé un site — ils ont conçu une expérience digitale qui raconte notre histoire. Le support bilingue a été un atout majeur pour notre audience internationale.",
-      src: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=500&h=500&fit=crop&q=80",
     },
     {
       name: "Luca Bernardi",
