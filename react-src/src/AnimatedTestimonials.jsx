@@ -48,6 +48,12 @@ const TESTIMONIALS = {
       src: "img/Manush Roshan.jpg",
     },
     {
+      name: "Marcus Carso",
+      designation: "Pinksale LATAM Representative",
+      quote: "Wonderful collab with Web Design Mindset and its CEO since many years. Speedy press-release delivery and marketing service.",
+      src: "img/Marcus Carso.jpg",
+    },
+    {
       name: "Sarah Mitchell",
       designation: "CEO, Elevate Ventures",
       quote: "Web Design Mindset completely transformed our online presence. The attention to detail and the modern aesthetic they brought to our brand exceeded every expectation. Our conversions jumped 40% within the first month.",
@@ -78,6 +84,12 @@ const TESTIMONIALS = {
       designation: "Directeur, Coneberry Productions LLP",
       quote: "Travailler avec cette équipe a toujours été un plaisir. Plus de 4 ans de collaboration et la qualité ne déçoit jamais.",
       src: "img/Manush Roshan.jpg",
+    },
+    {
+      name: "Marcus Carso",
+      designation: "Représentant LATAM, Pinksale",
+      quote: "Une collaboration formidable avec Web Design Mindset et son CEO depuis de nombreuses années. Livraison rapide des communiqués de presse et service marketing au top.",
+      src: "img/Marcus Carso.jpg",
     },
     {
       name: "Sarah Mitchell",
