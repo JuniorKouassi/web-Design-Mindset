@@ -60,6 +60,12 @@ const TESTIMONIALS = {
       src: "img/Jaky.jpg",
     },
     {
+      name: "Mawra Zafar",
+      designation: "CEO, MK Digiworld",
+      quote: "Great partnership and experience with this company on so many press-releases over the years. Keep it up!",
+      src: "img/Mawa.jpg",
+    },
+    {
       name: "Sarah Mitchell",
       designation: "CEO, Elevate Ventures",
       quote: "Web Design Mindset completely transformed our online presence. The attention to detail and the modern aesthetic they brought to our brand exceeded every expectation. Our conversions jumped 40% within the first month.",
@@ -102,6 +108,12 @@ const TESTIMONIALS = {
       designation: "Latam PR",
       quote: "Je recommande les services de Web Design Mindset à tout le monde. J'ai vécu une expérience formidable avec cette entreprise dans le web3.",
       src: "img/Jaky.jpg",
+    },
+    {
+      name: "Mawra Zafar",
+      designation: "CEO, MK Digiworld",
+      quote: "Un excellent partenariat et une belle expérience avec cette entreprise sur de nombreux communiqués de presse au fil des années. Continuez comme ça !",
+      src: "img/Mawa.jpg",
     },
     {
       name: "Sarah Mitchell",
